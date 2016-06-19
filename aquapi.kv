@@ -1,0 +1,87 @@
+GridLayout:
+    rows: 2
+    cols: 3
+    # Temps:
+    BoxLayout:
+        orientation: 'vertical'
+        margin: 10
+        Label:
+            text: "Temperatures"
+            size_hint: (1.0, 0.1)
+        GridLayout:
+            rows: 2
+            margin: 10
+            Label:
+                text: "Tank: 24C"
+                height: 40
+            Label:
+                text: "Sump: 26C"
+                height: 40
+    # Flow Rates:
+    BoxLayout:
+        orientation: 'vertical'
+        margin: 10
+        Label:
+            text: "Flow Rates"
+            size_hint: (1.0, 0.1)
+        GridLayout:
+            rows: 2
+            margin: 10
+            Label:
+                text: "Out: 300 L/H"
+            Label:
+                text: "In:  300 L/H"
+    # Water Levels:
+    BoxLayout:
+        orientation: 'vertical'
+        margin: 10
+        Label:
+            text: "Water Levels"
+            size_hint: (1.0, 0.1)
+        GridLayout:
+            rows: 2
+            margin: 10
+            Label:
+                text: "Tank: OK"
+            Label:
+                text: "Sump: OK"
+    # Light Cycle:
+    BoxLayout:
+        orientation: 'vertical'
+        margin: 10
+        Label:
+            text: "Light Cycle"
+            size_hint: (1.0, 0.1)
+        GridLayout:
+            rows: 2
+            margin: 10
+            Label:
+                text: "Sunrise"
+            Button:
+                text: "Change"
+    # Light Levels
+    BoxLayout:
+        orientation: 'vertical'
+        margin: 10
+        Label:
+            text: "Light Levels"
+            size_hint: (1.0, 0.1)
+        GridLayout:
+            rows: 2
+            margin: 10
+            Label:
+                text: "Left:  80%"
+            Label:
+                text: "Right: 80%"
+    # CO2
+    BoxLayout:
+        orientation: 'vertical'
+        margin: 10
+        Label:
+            text: "CO2"
+            size_hint: (1.0, 0.1)
+        GridLayout:
+            rows: 1
+            margin: 10
+            Label:
+                text: "On"
